@@ -40,7 +40,7 @@
   },
   "dependencies": {
     "@nuxt/kit": "^4.6.2",
-    "nuxt-desktop": "workspace:*"
+    "@owdproject/nuxt": "^4.0.0-alpha.3"
   },
   "devDependencies": {
     "@nuxt/module-builder": "^1.0.2",
@@ -51,6 +51,6 @@
   "peerDependencies": {
     "@owdproject/core": ">=4.0.0-alpha.0",
     "@owdproject/nuxt-atproto": "workspace:*",
-    "nuxt-desktop": ">=1.0.0"
+    "@owdproject/nuxt": "^4.0.0-alpha.3"
   }
 }
