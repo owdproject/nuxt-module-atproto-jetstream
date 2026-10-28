@@ -1,7 +1,8 @@
 import { addPlugin, createResolver } from '@nuxt/kit'
-import { defineDesktopModule } from '@owdproject/core/kit/authoring'
+import type { NuxtModule } from '@nuxt/schema'
+import { defineDesktopModule } from 'nuxt-desktop/kit'
 
-export default defineDesktopModule({
+const module: NuxtModule<any> = defineDesktopModule({
   meta: {
     name: 'desktop-module-atproto-jetstream',
     configKey: 'atprotoJetstream',
@@ -19,3 +20,5 @@ export default defineDesktopModule({
     })
   },
 })
+
+export default module

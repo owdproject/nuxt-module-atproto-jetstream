@@ -1,5 +1,5 @@
 {
-  "name": "@owdproject/module-atproto-jetstream",
+  "name": "@owdproject/nuxt-atproto-jetstream",
   "version": "0.0.2",
   "license": "MIT",
   "homepage": "https://github.com/atproto-os/module-atproto-jetstream",
@@ -38,14 +38,19 @@
     "dev:prepare": "nuxt-module-build build --stub && nuxt-module-build prepare && cd playground && pnpm exec nuxt prepare",
     "validate": "desktop validate ."
   },
+  "dependencies": {
+    "@nuxt/kit": "^4.6.2",
+    "nuxt-desktop": "workspace:*"
+  },
   "devDependencies": {
     "@nuxt/module-builder": "^1.0.2",
     "@owdproject/core": "workspace:*",
-    "nuxt": "^4.4.4",
+    "nuxt": "^4.6.2",
     "typescript": "~6.0.3"
   },
   "peerDependencies": {
-    "@owdproject/core": "3.4.0",
-    "@owdproject/module-atproto": "^0.0.6"
+    "@owdproject/core": ">=4.0.0-alpha.0",
+    "@owdproject/nuxt-atproto": "workspace:*",
+    "nuxt-desktop": ">=1.0.0"
   }
 }

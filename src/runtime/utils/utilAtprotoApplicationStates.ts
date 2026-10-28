@@ -1,5 +1,5 @@
-import { useApplicationManager } from "@owdproject/core/runtime/composables/useApplicationManager"
-import { useDesktopStore } from '@owdproject/core/runtime/stores/storeDesktop'
+import { useApplicationManager } from "nuxt-desktop/runtime/composables/useApplicationManager"
+import { useDesktopStore } from 'nuxt-desktop/runtime/stores/storeDesktop'
 import { useRuntimeConfig } from 'nuxt/app'
 
 function getJetstreamUrl(host: string, actorDid: string) {
