@@ -1,6 +1,6 @@
 {
   "name": "@owdproject/nuxt-atproto-jetstream",
-  "version": "0.0.2",
+  "version": "4.0.0-alpha.3",
   "license": "MIT",
   "homepage": "https://github.com/atproto-os/module-atproto-jetstream",
   "author": {
@@ -44,13 +44,18 @@
   },
   "devDependencies": {
     "@nuxt/module-builder": "^1.0.2",
-    "@owdproject/core": "workspace:*",
+    "@owdproject/core": "^4.0.0-alpha.3",
     "nuxt": "^4.6.2",
     "typescript": "~6.0.3"
   },
   "peerDependencies": {
-    "@owdproject/core": ">=4.0.0-alpha.0",
-    "@owdproject/nuxt-atproto": "workspace:*",
+    "@owdproject/core": "^4.0.0-alpha.3",
+    "@owdproject/nuxt-atproto": "^4.0.0-alpha.3",
     "@owdproject/nuxt": "^4.0.0-alpha.3"
+  },
+  "publishConfig": {
+    "access": "public",
+    "tag": "alpha",
+    "registry": "https://registry.npmjs.org/"
   }
 }
