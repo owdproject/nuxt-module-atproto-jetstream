@@ -1,5 +1,5 @@
 {
-  "name": "@owdproject/nuxt-atproto-jetstream",
+  "name": "@owdproject/module-nuxt-atproto-jetstream",
   "version": "4.0.0-alpha.3",
   "license": "MIT",
   "homepage": "https://github.com/atproto-os/module-atproto-jetstream",
@@ -50,7 +50,7 @@
   },
   "peerDependencies": {
     "@owdproject/core": "^4.0.0-alpha.3",
-    "@owdproject/nuxt-atproto": "^4.0.0-alpha.3",
+    "@owdproject/module-nuxt-atproto": "^4.0.0-alpha.3",
     "@owdproject/nuxt": "^4.0.0-alpha.3"
   },
   "publishConfig": {
